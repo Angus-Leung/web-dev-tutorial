@@ -1,0 +1,41 @@
+h1 {
+    text-align: center;
+    border: 1px #000000;
+    border-style: dotted;
+
+}
+
+h2 {
+    text-align: center;
+    border: 5px #000000;
+    border-style: dashed;
+}
+
+
+.item {
+    display: inline-block;
+    width:30%;
+}
+
+
+/* 
+    text center aligned
+    text to be white
+    button to be green
+    padding to be 5px on each side
+    cursor to be a pointer when the mouse hovers
+
+    button to have border on hover
+    goes invisible once i click it
+*/
+button {
+    text-align: center;
+    color: white;
+    background-color: green;
+    padding: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    border: #000000
+}
